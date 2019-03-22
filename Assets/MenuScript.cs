@@ -10,6 +10,10 @@ public class MenuScript : MonoBehaviour
     public static class MenuInput
     {
 
+        //store each individually 
+
+        
+        
 
 
 
