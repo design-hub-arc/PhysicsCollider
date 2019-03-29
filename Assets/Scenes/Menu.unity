@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 13853640}
   - component: {fileID: 13853639}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P1-z
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -779,7 +779,7 @@ GameObject:
   - component: {fileID: 124557563}
   - component: {fileID: 124557562}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P2-z
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1252,7 +1252,7 @@ GameObject:
   - component: {fileID: 161968794}
   - component: {fileID: 161968793}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P1-Vy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1387,7 +1387,7 @@ GameObject:
   - component: {fileID: 167388699}
   - component: {fileID: 167388698}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P1-Vz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1574,7 +1574,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &181722288
 GameObject:
@@ -1664,7 +1664,7 @@ GameObject:
   - component: {fileID: 200523370}
   - component: {fileID: 200523369}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P2-size
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2289,7 +2289,7 @@ GameObject:
   - component: {fileID: 386323022}
   - component: {fileID: 386323021}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P2-Vx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2499,7 +2499,7 @@ GameObject:
   - component: {fileID: 429137188}
   - component: {fileID: 429137187}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P1-size
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2841,7 +2841,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 134.52101, z: 0}
 --- !u!1 &544770031
 GameObject:
@@ -3008,7 +3008,7 @@ GameObject:
   - component: {fileID: 580677806}
   - component: {fileID: 580677805}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P2-x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3409,7 +3409,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &722903554
 GameObject:
@@ -3649,7 +3649,7 @@ GameObject:
   - component: {fileID: 780918665}
   - component: {fileID: 780918664}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P2-Vz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4735,6 +4735,49 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1286451962}
   m_CullTransparentMesh: 0
+--- !u!1 &1317842588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317842590}
+  - component: {fileID: 1317842589}
+  m_Layer: 0
+  m_Name: Setup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1317842589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1317842588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835f18fce8914f64d979f22fb1b7ea33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIInput: {fileID: 2071231466}
+  Particle1: {fileID: 0}
+  Particle2: {fileID: 0}
+--- !u!4 &1317842590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1317842588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1318720866
 GameObject:
   m_ObjectHideFlags: 0
@@ -4902,7 +4945,7 @@ RectTransform:
   - {fileID: 2071231463}
   - {fileID: 1590971656}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4966,7 +5009,7 @@ GameObject:
   - component: {fileID: 1357144951}
   - component: {fileID: 1357144950}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P1-x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5552,7 +5595,7 @@ GameObject:
   - component: {fileID: 1489383461}
   - component: {fileID: 1489383460}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: Dimension
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5835,7 +5878,7 @@ GameObject:
   - component: {fileID: 1571078332}
   - component: {fileID: 1571078331}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P2-Vy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6150,7 +6193,7 @@ GameObject:
   - component: {fileID: 1613381925}
   - component: {fileID: 1613381924}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P2-y
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6285,7 +6328,7 @@ GameObject:
   - component: {fileID: 1667495380}
   - component: {fileID: 1667495379}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P1-Vx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6647,7 +6690,7 @@ GameObject:
   - component: {fileID: 1794444176}
   - component: {fileID: 1794444175}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: P1-y
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7682,6 +7725,7 @@ GameObject:
   - component: {fileID: 2071231463}
   - component: {fileID: 2071231465}
   - component: {fileID: 2071231464}
+  - component: {fileID: 2071231466}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -7748,6 +7792,32 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2071231462}
   m_CullTransparentMesh: 0
+--- !u!114 &2071231466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2071231462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0bdb145f01f62447ba465ccbb180745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p1size: {fileID: 429137187}
+  p1posX: {fileID: 1357144950}
+  p1posY: {fileID: 1794444175}
+  p1posZ: {fileID: 13853639}
+  p1Vx: {fileID: 1667495379}
+  p1Vy: {fileID: 161968793}
+  p1Vz: {fileID: 167388698}
+  p2size: {fileID: 200523369}
+  p2posX: {fileID: 580677805}
+  p2posY: {fileID: 1613381924}
+  p2posZ: {fileID: 124557562}
+  p2Vx: {fileID: 386323021}
+  p2Vy: {fileID: 1571078331}
+  p2Vz: {fileID: 780918664}
+  dimension: {fileID: 1489383460}
 --- !u!1 &2086653484
 GameObject:
   m_ObjectHideFlags: 0
