@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 public class Input : MonoBehaviour
 {
     public InputField p1size;
@@ -19,7 +21,7 @@ public class Input : MonoBehaviour
     public InputField p2Vx;
     public InputField p2Vy;
     public InputField p2Vz;
-    public InputField dimension;
+    public InputField dimension;  //Should we remove this?
 
     public struct ParticleDetails
     {
