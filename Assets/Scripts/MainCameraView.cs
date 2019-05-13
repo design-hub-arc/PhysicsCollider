@@ -65,7 +65,7 @@ public class MainCameraView : MonoBehaviour {
         if (bounds.size.x > bounds.size.y)
         {
             greatestDistance = bounds.size.x;
-            print("Bounds x: " + bounds.size.x);
+            //print("Bounds x: " + bounds.size.x);
         }else{
             greatestDistance = bounds.size.y;
 
